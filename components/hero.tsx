@@ -4,9 +4,10 @@ import Image from 'next/image';
 import { CustomButton } from '.';
 
 const hero = () => {
-    const handleScroll = () = {
-
-    }
+  const handleScroll = () => {
+    // Your code here
+  }
+  
   return (
     <div className='hero'>
         <div className="flex-1 pt-36 padding-x">

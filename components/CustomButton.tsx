@@ -7,7 +7,7 @@ const CustomButton = ({title,containerstyles,handleclick}:CustomButtonProps ) =>
     <button
     disabled = {false}
     type='button'
-    className={'custom-btn capitalize'}
+    className={'custom-btn capitalize ${containerStyles}'}
     onClick={() => {}}
     >
         <span className='flex-1 '>
