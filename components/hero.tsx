@@ -6,10 +6,10 @@ import { CustomButtonProps } from "@types";
 import Image from "next/image";
 import Image from 'next/image';
 
-const hero = () => {
+const Hero = () => {
   const handleScroll = () => {
     // Your code here
-  }
+  };
   
   return (
     <div className='hero'>
@@ -26,8 +26,8 @@ const hero = () => {
             handleclick={handleScroll} />
         </div>
     </div>
-  )
-}
+  );
+};
 
 export default heroexport const Button = ({ isDisabled, btnType, containerStyles, textStyles, title, rightIcon, handleClick }: CustomButtonProps) => (
   <button
