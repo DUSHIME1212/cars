@@ -1,20 +1,10 @@
-"use client";
-import { CustomButtonProps } from '@/types';
-import image from 'next/image';
-
-const CustomButton = ({title,containerstyles,handleclick}:CustomButtonProps ) => {
-  return (
-    <button
-    disabled = {false}
-    type='button'
-    className={'custom-btn capitalize ${containerStyles}'}
-    onClick={() => {}}
-    >
-        <span className='flex-1 '>
-            
-        </span>
-    </button>
-  )
+"use clients"
+export interface CustomButtonProps {
+  isDisabled?: boolean;
+  btnType?: "button" | "submit";
+  containerStyles?: string;
+  textStyles?: string;
+  title: string;
+  rightIcon?: string;
+  handleClick?: MouseEventHandler<HTMLButtonElement>;
 }
-
-export default CustomButton

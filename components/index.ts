@@ -1,5 +1,5 @@
 import Hero from './hero';
-import CustomButton from './CustomButton';
+import CustomButton from "./hero";
 
 export {
     Hero,
